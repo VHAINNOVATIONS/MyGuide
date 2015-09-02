@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Switched Image View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController storyboardIdentifier="0" id="2" customClass="SwitchedImageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gg4-5N-wgM"/>
+                        <viewControllerLayoutGuide type="bottom" id="CtL-SF-KdC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSn-AL-JrJ">
+                                <rect key="frame" x="-116" y="87" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="green_arrow_w_shadow.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedSatisfactionReplayButton:" destination="2" eventType="touchUpInside" id="eWh-y3-Fdc"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQZ-QD-DER">
+                                <rect key="frame" x="78" y="373" width="70" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="pmnr_placeholder.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider1ButtonPressed:" destination="2" eventType="touchUpInside" id="yLU-TT-65l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hV1-sr-Kzo">
+                                <rect key="frame" x="210" y="377" width="523" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Provider 1 Button Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider1ButtonPressed:" destination="2" eventType="touchUpInside" id="Gwc-nQ-07T"/>
+                                </connections>
+                            </button>
+                            <button contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZL-x0-4Ud">
+                                <rect key="frame" x="78" y="456" width="70" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="pmnr_placeholder.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider2ButtonPressed:" destination="2" eventType="touchUpInside" id="o3q-TQ-awR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="M7a-xp-dBf">
+                                <rect key="frame" x="210" y="460" width="523" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Provider 2 Button Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider2ButtonPressed:" destination="2" eventType="touchUpInside" id="5os-gX-NjQ"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gU-9k-Unf">
+                                <rect key="frame" x="78" y="540" width="70" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="pmnr_placeholder.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider3ButtonPressed:" destination="2" eventType="touchUpInside" id="49b-qI-RMJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bo9-5X-E13">
+                                <rect key="frame" x="210" y="543" width="523" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Provider 3 Button Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider3ButtonPressed:" destination="2" eventType="touchUpInside" id="8BG-cx-jpA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KY9-zX-7Ys">
+                                <rect key="frame" x="78" y="625" width="70" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="pmnr_placeholder.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider4ButtonPressed:" destination="2" eventType="touchUpInside" id="2cn-Di-a8J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TcB-bc-QLY">
+                                <rect key="frame" x="210" y="629" width="523" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Provider 4 Button Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider4ButtonPressed:" destination="2" eventType="touchUpInside" id="nPI-5Q-8Qi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voA-J1-335">
+                                <rect key="frame" x="78" y="714" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="dont_know_stroke.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider5ButtonPressed:" destination="2" eventType="touchUpInside" id="pyl-lK-EHQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sVo-Iy-aIM">
+                                <rect key="frame" x="210" y="714" width="523" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="I Don't Know" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="provider5ButtonPressed:" destination="2" eventType="touchUpInside" id="a5a-xp-CVB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Provider test label textSele" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="924" translatesAutoresizingMaskIntoConstraints="NO" id="SVj-r0-ZGy">
+                                <rect key="frame" x="-29" y="150" width="924" height="190"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="currentReplayButton" destination="TSn-AL-JrJ" id="VXH-Pu-NHL"/>
+                        <outlet property="provider1ImageButton" destination="SQZ-QD-DER" id="8Dm-D1-x6O"/>
+                        <outlet property="provider1TextButton" destination="hV1-sr-Kzo" id="eIN-g7-PFm"/>
+                        <outlet property="provider2ImageButton" destination="bZL-x0-4Ud" id="3ux-yK-ebm"/>
+                        <outlet property="provider2TextButton" destination="M7a-xp-dBf" id="FpG-LT-6j8"/>
+                        <outlet property="provider3ImageButton" destination="0gU-9k-Unf" id="nXh-SL-tOF"/>
+                        <outlet property="provider3TextButton" destination="bo9-5X-E13" id="NSh-i3-bBS"/>
+                        <outlet property="provider4ImageButton" destination="KY9-zX-7Ys" id="eWJ-TK-FBQ"/>
+                        <outlet property="provider4TextButton" destination="TcB-bc-QLY" id="jST-Ca-1Hd"/>
+                        <outlet property="provider5ImageButton" destination="voA-J1-335" id="2bF-SP-cza"/>
+                        <outlet property="provider5TextButton" destination="sVo-Iy-aIM" id="U7P-HD-46O"/>
+                        <outlet property="providerTestLabel" destination="SVj-r0-ZGy" id="Jd4-Ri-V5Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96" y="-1091"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue_glow.png" width="1045" height="112"/>
+        <image name="dont_know_stroke.png" width="194" height="145"/>
+        <image name="green_arrow_w_shadow.png" width="131" height="131"/>
+        <image name="pmnr_placeholder.png" width="350" height="466"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Switched Image View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController storyboardIdentifier="0" id="2" customClass="SwitchedImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="center" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Goal choose label text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SVj-r0-ZGy">
+                                <rect key="frame" x="-4" y="186" width="872" height="99"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TSn-AL-JrJ">
+                                <rect key="frame" x="-116" y="97" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="green_arrow_w_shadow.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedSatisfactionReplayButton:" destination="2" eventType="touchUpInside" id="eWh-y3-Fdc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1bz-mP-3VV">
+                                <rect key="frame" x="-62" y="293" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal1ButtonPressed:" destination="2" eventType="touchUpInside" id="zAG-5C-DZa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iXv-au-HHf">
+                                <rect key="frame" x="-62" y="381" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal2ButtonPressed:" destination="2" eventType="touchUpInside" id="MNk-Ne-P2Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sb2-Gf-Dlw">
+                                <rect key="frame" x="-62" y="469" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal3ButtonPressed:" destination="2" eventType="touchUpInside" id="4vv-iT-38H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qT6-xA-5pT">
+                                <rect key="frame" x="-62" y="557" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal4ButtonPressed:" destination="2" eventType="touchUpInside" id="lFa-hc-LSV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yI8-q5-zeL">
+                                <rect key="frame" x="-62" y="645" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal5ButtonPressed:" destination="2" eventType="touchUpInside" id="78k-JF-Zke"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EGQ-AA-qSx">
+                                <rect key="frame" x="417" y="293" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal6ButtonPressed:" destination="2" eventType="touchUpInside" id="j9E-CC-hOA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KXX-90-GtT">
+                                <rect key="frame" x="417" y="381" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal7ButtonPressed:" destination="2" eventType="touchUpInside" id="1os-NX-9hU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RHP-E2-9kQ">
+                                <rect key="frame" x="417" y="469" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal8ButtonPressed:" destination="2" eventType="touchUpInside" id="DIO-Et-d4T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ubz-h7-eqy">
+                                <rect key="frame" x="417" y="557" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal9ButtonPressed:" destination="2" eventType="touchUpInside" id="yqz-PO-rGv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RSv-BE-YPF">
+                                <rect key="frame" x="417" y="645" width="471" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Goal 1 Text Text Text Text Text Text" backgroundImage="blue_glow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goal10ButtonPressed:" destination="2" eventType="touchUpInside" id="KZT-gM-rcc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="currentReplayButton" destination="TSn-AL-JrJ" id="VXH-Pu-NHL"/>
+                        <outlet property="goal10TextButton" destination="RSv-BE-YPF" id="H8A-Zu-hQS"/>
+                        <outlet property="goal1TextButton" destination="1bz-mP-3VV" id="O2f-e3-Vng"/>
+                        <outlet property="goal2TextButton" destination="iXv-au-HHf" id="ZVe-Re-tTe"/>
+                        <outlet property="goal3TextButton" destination="sb2-Gf-Dlw" id="wXP-JN-DO5"/>
+                        <outlet property="goal4TextButton" destination="qT6-xA-5pT" id="reJ-t8-pW4"/>
+                        <outlet property="goal5TextButton" destination="yI8-q5-zeL" id="ZxY-s9-gcA"/>
+                        <outlet property="goal6TextButton" destination="EGQ-AA-qSx" id="Yr5-dY-P5k"/>
+                        <outlet property="goal7TextButton" destination="KXX-90-GtT" id="HOF-W1-CDU"/>
+                        <outlet property="goal8TextButton" destination="RHP-E2-9kQ" id="J2X-ES-edo"/>
+                        <outlet property="goal9TextButton" destination="ubz-h7-eqy" id="538-4W-99o"/>
+                        <outlet property="goalChooseLabel" destination="SVj-r0-ZGy" id="hSD-5p-C8R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-88" y="-1117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue_glow.png" width="1045" height="112"/>
+        <image name="green_arrow_w_shadow.png" width="131" height="131"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
